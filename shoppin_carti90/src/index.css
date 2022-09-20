@@ -1,0 +1,67 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 5rem;
+  color: rgb(1, 12, 53);
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 30px;
+}
+a {
+  text-decoration: wavy;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: rgb(155, 189, 130);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.row center {
+  align-items: center;
+}
+img.small {
+  max-height: 20rem;
+}
+button {
+ font-size: 0.8rem;
+ margin: 1rem;
+ padding: 1rem;
+ background-color: rgb(249, 29, 29);
+ border-radius:0.9rem ;
+ border: rem;
+ width: 50%;
+ cursor: pointer;
+}
+button.add {
+  background-color: aqua;
+  width: 2rem;
+}
+button.remove {
+  background-color: chartreuse;
+  width: 2rem;
+}
+button.badge {
+  background-color: deeppink;
+  border: 8px;
+ color: rgb(5, 8, 8);
+}
